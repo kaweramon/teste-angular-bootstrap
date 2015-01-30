@@ -1,0 +1,19 @@
+<h2>Página de Tópicos</h2>
+<div class="row" ng-repeat="topic in topics">
+	
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  panel-body">
+		<!-- <ul ng-repeat="topic in topics" class="inline">
+			<li>{{ topic.title }} - {{topic.description}}</li>
+		</ul> -->
+		<div class="panel panel-default">
+		  <div class="panel-heading">
+		  	<h3>{{topic.title}}</h3>
+		  </div>
+		  <div class="panel-body">
+			<p class="text-left">
+				{{ topic.description }}
+			</p>    
+		  </div>
+		</div>
+	</div>
+</div>
